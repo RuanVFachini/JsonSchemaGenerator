@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonSchemaLib", "src\JsonSchemaLib\JsonSchemaLib.csproj", "{35CE2045-A1A8-46DE-AA52-0E12EEF9418C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonSchema.Tests", "tests\JsonSchema.Tests\JsonSchema.Tests.csproj", "{F371F7BD-0428-404F-A1B0-D94776C9C8A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E6C62F59-4860-4A69-B6AE-5FFA5DE67079}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{38ACAF62-52B5-45B9-8475-653A90A65DC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35CE2045-A1A8-46DE-AA52-0E12EEF9418C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CE2045-A1A8-46DE-AA52-0E12EEF9418C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CE2045-A1A8-46DE-AA52-0E12EEF9418C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CE2045-A1A8-46DE-AA52-0E12EEF9418C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F371F7BD-0428-404F-A1B0-D94776C9C8A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F371F7BD-0428-404F-A1B0-D94776C9C8A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F371F7BD-0428-404F-A1B0-D94776C9C8A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F371F7BD-0428-404F-A1B0-D94776C9C8A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35CE2045-A1A8-46DE-AA52-0E12EEF9418C} = {E6C62F59-4860-4A69-B6AE-5FFA5DE67079}
+		{F371F7BD-0428-404F-A1B0-D94776C9C8A2} = {38ACAF62-52B5-45B9-8475-653A90A65DC6}
+	EndGlobalSection
+EndGlobal
